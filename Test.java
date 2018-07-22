@@ -33,7 +33,7 @@ class Test{
 	public int getAge(){
 		return age;
 	}
-
+	
 	public String toString(){
 		return  "First Name " + getFirstName() + "\n" +
 				"Last Name " + getLastName() + "\n" + 
@@ -43,6 +43,6 @@ class Test{
 	public static void main(String[] args) {
 		Test t1 = new Test("Ebrima", "Jallow", 29);
 		t1.setName("Lamin");
-		System.out.println("Your firstname is " + t1.getFirstName());
+		System.out.println(t1.toString());
 	}
 }
