@@ -3,7 +3,7 @@ class Child extends Test{
 		super(name, surname, age);
 	}
 
-	public String toString1(){
+	public String display(){
 		return super.toString();
 	}
 	public static void main(String[] args) {
