@@ -1,6 +1,8 @@
 class Child extends Test{
-	public Child(String name, String surname, int age){
+	private int mat;
+	public Child(String name, String surname, int age, int mat){
 		super(name, surname, age);
+		this.mat = mat;
 	}
 
 	public String display(){
